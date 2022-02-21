@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>check ext</h1>
+
+{% for tip in tips %}
+    {{ tip.tip_name }}<br>
+    {{ tip.category_name }}<br>
+    {{ tip.tip_long }}<br>
+    {{ tip.tip_short }}<br>
+    {{ tip.tip_img }}<br>
+
+
+{% endblock %}
